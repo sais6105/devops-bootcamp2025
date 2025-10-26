@@ -1,0 +1,10 @@
+# Terraform State Files and Backups
+*.tfstate
+*.tfstate.*
+!*.tfstate.lock.info # Keep this if you want to track lock information
+
+# Terraform Backup Files
+**/*.backup
+
+# Terraform Cache Directory
+.terraform/
